@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- JavaScript -->
+    <style>
+    body {
+      font-family: "Lato", sans-serif;
+    }
+
+    .sidenav {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: #6DF1A9;
+      overflow-x: hidden;
+      transition: 0.5s;
+      padding-top: 60px;
+    }
+
+    .sidenav a {
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 25px;
+      color: #034621;
+      display: block;
+      transition: 0.3s;
+    }
+
+    .sidenav a:hover {
+      color: #f1f1f1;
+    }
+
+    .sidenav .closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+    }
+
+
+</style>
+</head>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <title>Botanical Heaven!</title>
+  </head>
+  <body style="background-color: lightgrey;">
+    <header>
+        <div class="row">
+            <div class="col"  style="color: green">
+                <h1 class="display-3 fw-bold" style="text-align: center;">Botanic Heaven</h1>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+       <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+        <a class="nav-link" href="liveplants.html">Live Plants</a>
+        <a class="nav-link" href="lighting.html">Lighting</a>
+        <a class="nav-link" href="fertilizer.html">Fertilizer</a>
+        <a class="nav-link" href="faqandabout.html">FAQ & About us</a>
+        <a class="nav-link" href="contactus.html">Contact us</a>
+      </div>
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+        <div class="row">
+            <div class="col-5">
+                <img src="images/faqcat.png" class="Blue Flower">
+            </div>
+            <div class="col-7">
+                <div class="container">
+                    <p class="display-6 mt-5">
+                        FAQ's
+                    </p>
+                    <ul>
+                        <li>How to do plantations?</li>
+                            <p> Doing plantation is a continoius effort. You have to choose plants for exterior and interior needs.
+                                Make one dedicated area for plantation. Arrange fertile soil, pots and clean water in the plantation area.
+                                  </p>
+                        <li>How to do effective fertilization?</li>
+                            <p> Fertilizer provide nutrition to plants. Maintain 10 to 15 days gaps when you use fertilizer. Organic fertilizer is far better than </p>
+                        <li>How to do lighting?</li>
+                            <p> Some plants can live in room lighting conditions. Some plants need at least 3 to 4 hours of sunlight.
+                                To replace the sun light you can create an environment inside the room with electirc bulbs.</p>
+                    </ul>
+                    <div class="row">
+                        <p class="display-6">About us</p>
+                        <p>Botanic Heaven is a Calgary Based website that offers a selection of live plants and goods that ship straight to your door!
+                            We at Botanic Heaven want to make sure that your plants arrive alive but if any plants arrive DOA we offer a Reship Guarantee.
+
+	<table class="styled-table">
+    <thead>
+	   <link rel="stylesheet" href="stylesheet.css">
+        <tr>
+            <th>Us!</th>
+            <th>Who are we?</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><img src="images/meena.jpg" class="meena"></td>
+            <td>Meena is born and raised in Calgary, Alberta and has had a love of plants and animals since she was a young girl. Her one dream in life is to own her own little plant shop. </td>
+        </tr>
+        <tr>
+            <td><img src="images/nk.jpg" class="nk"></td>
+            <td></td>
+        </tr>
+		<tr>
+            <td><img src="images/rangaa.jpg" class="ranga"></td>
+            <td></td>
+        </tr>
+		<tr>
+            <td><img src="images/mn.jpg" class="mn"></td>
+            <td></td>
+		</tr>
+    </tbody>
+</table>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer mt-auto py-3">
+        <div class="container">
+        <figure>
+            <figcaption class="text-muted">
+                Designed By: <cite title="Source Title">Meena Jassal, Muhammad Numan, Nkoula Richan, Ranganath Prasanna</cite>
+                </figcaption>
+        </figure>
+        </div>
+    </footer>
+  </body>
+</html>
